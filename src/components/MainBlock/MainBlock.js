@@ -1,7 +1,7 @@
 
 export default function MainBlock() {
   return (
-    <main className="flex justify-between mb-[124px] cursor-pointer relative md:flex-col sl:px-[15px] sl:mb-[40px]">
+    <main className="flex justify-between mb-[124px] relative md:flex-col sl:px-[15px] sl:mb-[40px]">
         <div className="md:mb-[45px]">
             <h1 className="font-inter text-[48px] leading-[58px] max-w-[362px] mb-[30px] sl:text-[36px] sl:leading-[44px]">Зарабатывайте больше <span className="text-transparent bg-clip-text bg-text-gradient font-black sl:text-[36px] leading-[44px]"><br/> с WELBEX</span></h1>
             <p className="max-w-[265px] text-xlg font-normal font-montserrat">Развиваем и контролируем продажи за вас</p>

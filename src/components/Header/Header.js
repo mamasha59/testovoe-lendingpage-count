@@ -5,7 +5,7 @@ import SocialMedia from '../SocialMedia/SocialMedia';
 export default function Header() {
   return (
     <header className="flex items-center mb-[90px] justify-between relative md:justify-center sl:mb-10">
-        <div className='flex items-center sl:w-full sl:relative sl:z-40'>
+        <div className='flex items-center sl:w-full sl:relative sl:z-40 z-20'>
             <div className='mr-[52px] lg:hidden'>
                 <img aria-label='лого бренда WELBEX' title='лого бренда WELBEX' className='cursor-pointer mb-[10px] max-w-[140px] h-auto' src={LogoBrend} alt="логотип WELBEX"/>
                 <h2 className="max-w-[140px] text-[10px] leading-3 font-montserrat">крупный интегратор CRM в Росcии и ещё 8 странах</h2>
@@ -28,7 +28,7 @@ export default function Header() {
                 <SocialMedia/>
             </ul>
         </div>
-        <div className='absolute left-[51%] -top-[154px] w-[259px] h-[259px] bg-[#833AB4] blur-[196px] opacity-50 rounded-full z-[20]
+        <div className='absolute left-[51%] -top-[154px] w-[259px] h-[259px] bg-[#833AB4] blur-[196px] opacity-50 rounded-full
             midl:left-[20%] sl:-left-[55px] sl:top-60 sl:opacity-50 sl:w-[210px] sl:h-[210px]'></div>
     </header>
   )
