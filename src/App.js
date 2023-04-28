@@ -4,8 +4,8 @@ import MainBlock from "./components/MainBlock/MainBlock";
 
 function App() {
   return (
-      <div className="max-w-[1400px] my-0 mx-auto text-[#E4E5EA] px-[150px] pt-[57px] md:px-6 sl:p-0">
-        <Header />
+      <div className="max-w-[1440px] my-0 mx-auto text-[#E4E5EA] pl-[147px] pr-[150px] pt-[57px] md:px-6 sl:p-0">
+        <Header/>
         <MainBlock/>
         <Footer/>
       </div>
